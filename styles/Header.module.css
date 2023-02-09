@@ -1,0 +1,62 @@
+.container {
+    display: grid;
+    text-align: center;
+    min-height: 82vh;
+    grid-template-columns: minmax(1rem, 1fr) 90% minmax(1rem, 1fr);
+}
+
+.container>*:first-child {
+    grid-column: 2;
+}
+
+.container>*:last-child {
+    grid-column: 3;
+}
+
+.main {
+    padding-top: 3.5rem;
+    font-family: 'Bebas Neue';
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: clamp(5rem, 9vw, 8rem);
+    letter-spacing: 0.08em;
+    line-height: 0.5rem;
+}
+
+.content {
+    font-family: 'Belgrano';
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        display: grid;
+        min-height: 82vh;
+        min-width: 100vw;
+        align-items: center;
+        text-align: center;
+        column-gap: var(--container-gap, 1rem);
+        grid-template-columns: minmax(1rem, 1fr) 90% minmax(1rem, 1fr);
+    }
+
+    .container>*:first-child {
+        grid-column: 2;
+    }
+
+    .main {
+        padding: 0 0;
+        margin: 0.1;
+        font-size: clamp(8rem, 16vw, 20rem);
+        line-height: 1px;
+        letter-spacing: 0.09em;
+    }
+
+    .content {
+        padding: 0 2.5rem;
+    }
+}

@@ -1,0 +1,64 @@
+.container{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.heading {
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(3.5em, 8vw, 5rem);
+    line-height: 4.5rem;
+    letter-spacing: 0.5rem;
+    padding-top: 2.5rem;
+}
+
+.verticaltimelineelementtitle{
+    color: black;
+    font-size: 2rem;
+    padding: 0.25rem;
+    margin: 0;
+}
+
+.verticaltimelineelementsubtitle{
+    color: black;
+    padding-top: 0.25rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.vertical-timeline-element-content{
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2rem, 3rem !important;
+}
+
+.date{
+    color: rgb(201, 251, 255);
+}
+
+.description{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.button{
+    display: inlline-block;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: white;
+    background: black;
+}
+
+@media(max-width: 1700px){
+    .vertical-timeline-element-date{
+        display: block !important;
+        float: none !important;
+        color: rgb(54, 54, 54);
+        margin-top: 1.5rem;
+    }
+}

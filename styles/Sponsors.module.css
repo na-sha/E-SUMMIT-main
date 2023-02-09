@@ -1,0 +1,19 @@
+.container{
+    min-height: 100vh;
+    max-width: 100%;
+    /* overflow: hidden; */
+    /* display: grid; */
+    /* place-items: center; */
+}
+
+.heading {
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(3.5em, 8vw, 5rem);
+    line-height: 4.5rem;
+    letter-spacing: 0.5rem;
+    padding-top: 2.5rem;
+}
