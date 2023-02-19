@@ -35,7 +35,7 @@ const RegistrationForm_esummit23 = () => {
         e.preventDefault()
         const data = { fname, lname, email, rollNo, year, branch }
         // console.log(data);
-        let res = await fetch("http://localhost:3000/api/registration", {
+        let res = await fetch("/api/registration", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

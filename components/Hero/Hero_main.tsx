@@ -36,7 +36,7 @@ const Hero = () => {
             <span className="text-gradient">We Foster</span>
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
-            <Link href="https://linktr.ee/edctiet" target='_blank'>
+            <Link href="e-summit23">
               <CTA />
             </Link>
           </div>
@@ -53,7 +53,7 @@ const Hero = () => {
       </div>
 
       <div className={`ss:hidden flex justify-center items-center`}>
-        <Link href="https://linktr.ee/edctiet">
+        <Link href="/e-summit23">
           <CTA />
         </Link>
       </div>

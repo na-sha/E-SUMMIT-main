@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import styles from '../../styles/style'
-import DrawSVG from '../Utilities/DrawSVG'
 import { internshipFair, bizConclave, unwind, pitchverse, startupExpo } from '../../assets'
 import Image from 'next/image'
 

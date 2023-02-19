@@ -44,12 +44,13 @@ const Navbar = () => {
                                 key={nav.id}
                                 className={styles.navListItem}
                             >
-                                <Link
+                                <a
                                     href={`#${nav.title}`}
                                     onClick={menuToggle}
+                                    className="scroll-smooth"
                                 >
                                     {nav.title}
-                                </Link>
+                                </a>
                             </li>
                         ))}
                     </ul>
