@@ -59,12 +59,6 @@ const InfiniteSlider = () => {
                     <div className={`${styles.slide}`}>
                         <span>sponsor8</span>
                     </div>
-                    <div className={`${styles.slide}`}>
-                        <span>sponsor9</span>
-                    </div>
-                    <div className={`${styles.slide}`}>
-                        <span>sponsor10</span>
-                    </div>
                 </div>
             </div>
         </main>

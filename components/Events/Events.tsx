@@ -3,7 +3,7 @@ import TimelineESummit from './TimelineESummit'
 
 const Events = () => {
     return (
-        <div className={`${styles.container}`}>
+        <div id='Events' className={`${styles.container}`}>
             <div className={`${styles.heading}`}>Events</div>
             <TimelineESummit />
         </div>

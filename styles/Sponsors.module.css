@@ -1,9 +1,6 @@
 .container{
     min-height: 100vh;
     max-width: 100%;
-    /* overflow: hidden; */
-    /* display: grid; */
-    /* place-items: center; */
 }
 
 .heading {
@@ -16,4 +13,5 @@
     line-height: 4.5rem;
     letter-spacing: 0.5rem;
     padding-top: 2.5rem;
+    font-family: 'Bebas Neue';
 }

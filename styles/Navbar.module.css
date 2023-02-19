@@ -4,7 +4,7 @@
 
 .hamburger {
     position: absolute;
-    width: 80px;
+    width: 30px;
     margin-top: 4.8rem;
     margin-left: clamp(1em, 8vw, 4em);
     cursor: pointer;
@@ -13,6 +13,8 @@
 
 .hamburgerIcon {
     z-index: 100;
+    width: auto;
+    height: auto;
 }
 
 .logo {
@@ -24,6 +26,7 @@
     line-height: 4.5rem;
     letter-spacing: 0.5rem;
     padding-top: 3.5rem;
+    font-family: 'Bebas Neue';
 }
 
 .navMenu {
@@ -39,6 +42,7 @@
     left: 0;
     align-items: center;
     transition: 500ms;
+    font-family: 'Bebas Neue';
 }
 
 .navHidden {
@@ -54,6 +58,7 @@
     left: -100%;
     align-items: center;
     transition: 500ms;
+    font-family: 'Bebas Neue';
 }
 
 .navList {
@@ -61,14 +66,17 @@
     list-style: none;
     text-decoration: none;
     letter-spacing: 0.4rem;
-    padding: auto;
+    padding: 0;
+    margin: 0;
+    line-height: 8rem;
     display: block;
     font-size: clamp(5rem, 8vw, 6.5rem);
 }
 
 .navListItem{
     padding: 0 clamp(1rem, 4vw, 1.5rem);
-
+    margin: 0;
+    font-family: 'Bebas Neue';
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
 }
 
